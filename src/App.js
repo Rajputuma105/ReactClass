@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+
+import "./App.css";
+// import Date from "./assigment2/Date";
+// import Images from "./assigment2/Image";
+// import NameMessage from "./assigment2/NameMessage";
+import UserList from "./user_list/User_list";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn about React
-        </a>
-      </header>
-    </div>
+      <div className="App">
+    {/* //    <div id="image" className="component">
+    //     <Images />
+    //   </div>
+    //   <div id="name" className="component">
+    //      <NameMessage />
+    //    </div>
+    //    <div id="date" className="component">
+    //      <Date />
+    //    </div> */}
+    <UserList/>
+      </div>
+    
+  //  <div>
+  //   <UserList/>
+  //  </div>
   );
 }
-
 export default App;
